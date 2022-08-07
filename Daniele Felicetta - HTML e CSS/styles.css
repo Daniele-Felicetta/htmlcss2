@@ -1,0 +1,290 @@
+@font-face {
+    font-family: "Exo";
+    src: url("fonts/Exo2-Medium.ttf") format("truetype");
+}
+@font-face {
+    font-family: "Arima";
+    src:url("fonts/Arima-SemiBold.ttf") format("truetype");
+}
+
+html {
+    scroll-behavior:smooth!important;
+}
+h2{
+    font-family:'Exo';
+
+}
+.h2right{
+    margin-left:10vw;
+    margin-top:6vw;
+    font-family:'Exo';
+}
+.titolo{
+    color: #3a250bea!important;
+    font-size: 10vw;
+    width:80vw;
+    position: absolute;
+    top:25vw;
+    right:8vw;
+    font-family:'Exo';
+}
+.freccia{
+    width:8vw;
+    position: absolute;
+    top:47vw;
+    right:46vw;
+}
+.wall{
+    z-index: -1;
+    position: absolute;
+    right: 0;
+    top:0vw;
+    width:100vw;
+}
+.background2{
+    z-index: -1;
+    position: absolute;
+    right:0vw;
+    top:56vw;
+    width: 100vw;
+    height:50vw;
+}
+
+.water{
+    z-index:0 ;
+    position: absolute;
+    right: 0;
+    top:-10vw;
+    left:25vw;
+    width:70vw;
+    opacity: 3%;
+    border-radius: 100%;
+}
+nav{
+    z-index: 2;
+    position:fixed;
+    top:0;
+    left:0;
+    width: 100vw;
+    height: 6vw;
+    color:white;
+    background-color: rgba(11, 11, 11, 0.699);
+}
+nav li{
+    margin-top: 1vw;
+    font-family: "Arima";
+    padding: 1vw 3vw ;
+    border-radius: 0.7vw;
+    font-weight:bolder;
+    font-size: 1vw;
+    margin-left:6.5vw;
+    margin-right: 5vw;
+    opacity: 90%;
+
+}
+ul{
+    display:flex;
+    margin:0;
+
+    list-style-type: none;
+}
+a:link,a:visited{
+    color:rgb(255, 255, 255);
+    text-decoration:none;
+    
+}
+nav li:hover{
+    box-shadow: 0vw 0vw 4vw 2.5vw rgba(38, 101, 197, 0.2);
+    border-radius: 10vw;
+}
+/*---------------------------1--------------------------*/
+
+
+#chisono{
+    
+    background: linear-gradient(270deg, #c1562c, #c1832c,#c1832c, #9e4217);
+    background-size: 100% 100%;
+    background-image: url("./img/introback_1.avif");
+    position:absolute;
+    right:0vw;
+    top:56vw;
+    height: 40vw;
+    width: 100vw;
+}
+.chisono{
+
+        position: absolute;
+        top:2vw;
+        left:20vw;
+        font-size:4vw;
+}
+
+/*----------------------2------------------------*/
+.obiettivi{
+        
+        background:linear-gradient(180deg, #bc8750,#9cd5ce, #84c3b7, #84c3b7);
+        background-image: url("./img/sky.jpg");
+        background-size: 100% 100%;
+        position:absolute;
+        right:0vw;
+        top:96vw;
+        height: 40vw;
+        width: 100vw;
+        color:rgb(0, 0, 0)!important;
+}
+.vita{
+
+    position:absolute;
+    top:0vw;
+    right:16vw;
+    font-size: 4vw;
+    
+}
+.foto-obiettivi{
+    display: flex;
+    justify-content: start;
+    border-radius: 2vw;
+    position:absolute;
+    top:5vw;
+    left:10vw;
+    width:27vw;
+}
+.stile{
+    margin-top: 16vw;
+    display:flex;
+    justify-content: center;
+    align-items: stretch;
+    max-width: 60vw;
+    font-size: 2vw;
+    flex-wrap: wrap;
+    font-family: "Exo";
+    text-align: center;
+    
+}
+.stile2{
+    margin-left: 40vw;
+}
+.foto-profilo{
+    border-radius: 2vw;
+    position:absolute;
+    top:8vw;
+    right:5vw;
+    width:35vw;
+}
+
+
+/*-----------------3---------------*/
+.avventura{
+    background: linear-gradient(270deg, #cfcd5c, #8b8853,#cabc6b, #909731);
+    background-size: 100% 100%;
+    background-image: url("./img/back1.avif");
+    position:absolute;
+    right:0vw;
+    top:136vw;
+    height: 40vw;
+    width: 100vw;
+}
+
+.foto-avventura{
+
+    border-radius: 2vw;
+    position:absolute;
+    top:7vw;
+    right:2vw;
+    width:35vw;
+}
+.stile3{
+    margin-top: 0vw;
+    margin-left:1vw;
+    align-content:stretch;
+}
+.start2impact{
+    margin-top: 2vw;
+    width:25vw;
+}
+a:hover .start2impact{
+    transform: rotate(-7deg);
+}
+.progetto{
+    background-image: url("./img/back2.avif");
+    background-size: 100% 100%;
+    position:absolute;
+    right:0vw;
+    top:176vw;
+    height: 35vw;
+    width: 100vw;
+    color:rgb(0, 0, 0)!important;
+    
+
+}
+#video-progetto{
+    z-index: 1;
+    display: flex;
+    justify-content: start;
+    border-radius: 2vw;
+    position:absolute;
+    top:8vw;
+    left:3vw;
+    width:35vw;
+}
+.obiettivi1{
+    margin-top: 1vw;
+}
+
+.obiettivi2{
+    margin-top: 3.2vw;
+    color:rgb(0, 0, 0);
+}
+
+.progetto1{
+    color: black;
+    background-color: rgba(197, 125, 30, 0.8);
+    border-radius: 1vw;
+    padding: 2vw 1vw;
+    margin-left: 4vw;
+    margin-right: 4vw;
+}
+
+footer{
+    border-top:0.3vw solid #2cb0c1;
+    background: linear-gradient(270deg,#98cacc, #98d2d6);
+    background-size: 100% 100%;
+
+    position:absolute;
+    right:0vw;
+    top:211vw;
+    height: 40vw;
+    width: 100vw;
+    color:black;
+}
+.loghi{
+    margin-top: 5vw;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+.loghi li{
+    text-align: center;
+    font-family:"Exo";
+    font-size: 2.3vw;
+    font-weight: bold;
+    margin-top: 3vw;
+}
+.altri{
+
+    display: flex;
+    justify-content: space-around ;
+    font-size: 2vw;
+    font-family: "Exo";
+    margin-top: 10vw;
+}
+.github-logo{
+    width: 6vw;
+}
+.linkedin-logo{
+    width: 6vw;
+}
+.instagram-logo{
+    width: 6vw;
+}
+

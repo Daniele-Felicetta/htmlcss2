@@ -1,0 +1,405 @@
+
+@font-face{
+  font-family:"Secular";
+  src:url("Fonts/SecularOne-Regular.ttf") format("truetype");
+}
+
+
+
+/*-----------------BODY------------*/
+body{
+  background-color: #1b5702;
+  margin: 0vw;
+  cursor: url("./img/mouse.PNG"), auto;
+  height: 168.75vw;
+} 
+
+#background-video{
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  top:0vw;
+  width:100vw;
+  opacity: 80%;
+}
+
+#background-video2{
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  top:56.25vw;
+  width:100vw;
+  opacity: 70%;
+}
+#background-video3{
+  z-index: -1;
+  position: absolute;
+  right: 0;
+  top: 112.5vw;
+  width:100vw;
+  opacity: 70%;
+}
+
+
+
+.title{
+  font-family:"Secular";
+  font-size:18vw;
+  position: relative;
+  top: 0px;
+  left: 1.5em;
+  width: 3em;
+  text-shadow: 0.2vw -0.3vw rgba(0,0,0,0.8);
+  opacity: 90%;
+}
+
+
+
+/*-----------------TESTO----------------*/
+
+p, article{
+  overflow:hidden;
+  font-family: "Secular";
+  font-weight: bold;
+  margin-top:8.5vw;
+  margin-left:20vw;
+  color: white ;
+}
+article{
+  background-color: rgb(184, 140, 83,0.5);
+  border-radius: 15%;
+  padding: 0.2vw;
+  padding-left: 1.5em;
+  padding-right:1.5em;
+  
+  height: auto;
+ 
+  font-size: 1.5vw;
+  text-align: center;
+}
+.introduzione{
+  overflow: hidden;
+  position:absolute;
+  top:52.5vw;
+  left:2vw;
+  font-size: 2vw;
+  width: 55vw;
+  height:40vw;
+  padding:3vw ;
+}
+.introduzione:hover{
+  background-image: url("./img/schema-evolutivo.png") ;
+  opacity: 65%;
+  background-size: 100% 100%;
+  color: rgba(0,0,0,0); 
+}
+.introduzione:hover strong{
+  color:rgba(0,0,0,0);
+}
+
+/*---2---*/
+
+.introduzione2{
+  overflow: hidden;
+  position:absolute;
+  top:109vw;
+  left:2vw;
+  font-size: 1.7vw;
+  width: 55vw;
+  height:40vw;
+  padding:3vw ;
+}
+.introduzione2 strong{
+  font-size: 1.9vw;
+}
+.introduzione2:hover{
+  background-image: url("./img/anatomia.png");
+  opacity: 75%;
+  background-size: 100% 100%;
+  color: rgba(0,0,0,0); 
+}
+.introduzione2:hover strong{
+  color:rgba(0,0,0,0);
+}
+.introduzione2:hover ol li{
+  list-style-image:none;
+}
+.introduzione2 ol li{
+  text-align: start;
+  list-style-image: url("./img/list.png");
+  margin-bottom: 2vw;
+  padding-left: 1vw;
+}
+
+
+
+/*-----------------------LATERAL MENU----------------------------*/
+
+
+.logo{
+  display: inline-block;
+  position: fixed;
+  height:18.75em;
+}
+.logo>img{
+   width:18.75em; /*250px  120%*/;
+   height: auto;
+   border-radius:  2vw 50%; /*27*/
+   margin-left: -1.3vw;
+   margin-top:0;
+   box-shadow: 0.6vw 0.4vw 0.8vw 0vw rgba(0,0,0,0.8);
+
+}
+
+
+
+
+.logo:hover .menu{
+  display: block;
+  background-image: url("img/tendina.png");
+  background-size:100% 100%;
+}
+
+.menu {
+  /*DROPDOWN*/
+
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  box-shadow: 0.27em 0.2em 0.4em 0em rgba(0,0,0,0.3);
+  z-index: 1;
+
+  /*FONT MENU*/
+  font-family: "Secular";
+  font-size:2.7em;
+
+  /*POSITION MENU*/
+  
+  margin-top: -0.1em;
+  margin-left:-0.2em;
+  padding: 0em 0.585em;
+
+  /*BORDER MENU */
+  
+  background-color: #c9edf1;
+  background-image: linear-gradient(80deg, #c9edf1 0%, #fcf8c4 100%); 
+  border-radius:40% 2vw ;
+}
+.menu ul{
+  
+  list-style-type: none;
+  margin-left: 0em;
+  padding-left: 0em;
+  margin: 0.675em 0em;
+  
+}
+.menu li{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1.5em;
+}
+a:link,a:visited{
+  color:rgb(255, 255, 255);
+  text-decoration:none;
+}
+a:hover{
+  margin-left:2vw;
+  cursor: url('./img/mouse-hover.png'), auto;
+  box-shadow: 0vw 0vw 4vw 1vw rgba(6, 192, 143, 0.2);
+  border-radius: 20%;
+  background-color: rgba(6, 192, 143,0.12);
+}
+
+strong{
+  font-family:"Secular" ;
+  font-size: 2.5vw;
+  color: #313131;
+}
+
+
+
+
+
+/*-----------------------------------CONTATTI--------------------------------*/
+
+#background-contatti{
+  z-index: -1;
+  position: fixed;
+  right: 0;
+  top:0;
+  width:100vw;
+  opacity: 70%;
+}
+
+.contatti-title{
+  color:rgb(231, 231, 231);
+  font-family:"Magilio";
+  font-size:18vw;
+  position: relative;
+  top: 0px;
+  left: 1.5em;
+  width: 3em;
+  text-shadow: 0.2vw -0.3vw rgba(0,0,0,0.8);
+  opacity: 90%;
+}
+.contatti-contacts{
+  color:rgb(153, 80, 53);
+  font-family:"Magilio";
+  font-size:4vw;
+  position: relative;
+  top:10vw;
+  left: 25vw;
+  margin-bottom: 1vw;
+  text-shadow: 0.2vw -0.3vw rgba(0,0,0,0.8);
+  opacity: 90%;
+  width:70vw;
+}
+.contatti-contacts ul{
+  list-style: none;
+}
+.contatti-contacts li{
+  margin: 3vw;
+}
+.contatti-esp{
+  color:rgb(180, 153, 53);
+  font-family:"Magilio";
+  font-size:4vw;
+  position: relative;
+  top:12vw;
+  left: 25vw;
+  text-shadow: 0.2vw -0.3vw rgba(0,0,0,0.8);
+  opacity: 90%;
+  width:70vw;
+}
+.contatti-esp ul{
+  list-style: none;
+}
+.contatti-esp li{
+  margin: 3vw;
+}
+
+
+/*-----------------------INSETTI-------------------/*
+
+
+
+
+
+/*-------------------------MEDIA QUERIES--------------------------------*/
+
+
+
+
+
+
+@media screen and (max-width: 1300px) {
+
+  p,article{
+    left:2em;
+  }
+  .logo,.logo>img{
+    width:20vw;
+  }
+  .menu{
+    margin-top:-0.6vw;
+    font-size: 3vw;
+  }
+  .introduzione2{
+    font-size: 1.68vw;
+    margin-bottom: 1vw;
+  }
+  .introduzione2 ol li{
+    margin-bottom: 1.5vw;
+  }
+}
+@media screen and (max-width: 1100px) {
+
+  .introduzione2{
+    font-size: 1.5vw;
+    margin-bottom: 1vw;
+  }
+  .introduzione2 ol li{
+    margin-bottom: 1.3vw;
+  }
+
+}
+@media screen and (max-width: 900px) {
+
+  .introduzione2{
+    font-size: 1.5vw;
+  }
+  .introduzione2 ol li{
+    list-style-image: url("./img/list2.PNG");
+  }
+
+  .title{
+  left:1.5em;
+  font-size: 20vw;
+  }
+  p,article{
+    font-size: 1.2em;
+    
+  }
+
+}
+@media screen and (max-width: 750px) {
+  .introduzione2{
+    font-size: 1.3vw;
+  }
+  .introduzione2 strong{
+    font-size: 1.5vw;
+  }
+}
+@media screen and (max-width: 700px) {
+ 
+
+  p,article{
+    font-size:1.5em;
+  }
+  .menu{
+    margin-top: -0.7vw;
+  }
+  }
+  @media screen and (max-width: 600px) {
+
+    .introduzione2 ol li{
+      list-style-image: url("./img/list3.PNG");
+    }
+      
+    .logo,.logo>img{
+      width:23vw;
+    }
+
+    .menu{
+        margin-top: -0.8vw;
+        font-size: 3.5vw;
+    }
+      
+    }
+    
+    @media screen and (max-width: 450px) {
+   
+      .menu{
+        margin-top: -1vw;
+      }
+    }
+    @media screen and (max-width: 400px) {
+
+      .introduzione2{
+        font-size: 1.5vw;
+      }
+      .introduzione2 strong{
+        font-size: 1.5vw;
+      }
+      .introduzione2 ol li{
+        list-style-image: url("./img/list4.PNG");
+      }
+        .menu{
+          margin-top: -1.4vw;
+      
+        }
+        .title{
+          font-size: 20vw;
+         
+        }
+      }
