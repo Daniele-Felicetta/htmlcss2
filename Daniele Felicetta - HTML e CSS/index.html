@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html lang="it">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <head>
      
@@ -26,7 +26,6 @@
                 <ul>
                 <li class="li1"><a href="#home">HOME</a></li>
                 <li class="li2"><a href="#chisono">CHI SONO</a></li>
-                <li class="li3"><a href="./insecta/Insecta.html">ESEMPIO PROGETTO</a></li>
                 <li class="li4"><a href="#contatti">CONTATTI</a></li>
                 </ul>
             </nav>
@@ -78,17 +77,7 @@
 
 
             <!-----------4------------>
-            <article class="progetto">
-                 <div class="stile stile2">
-                     <p class="progetto1">Clicca sull'immagine a sinistra e scopri come potrebbe essere un progetto dedicato</p>
-                     <a href="./insecta/Insecta.html"> <video autoplay muted loop id="video-progetto">
-                        <source src="./insecta/Video/background1.mp4#t=3" type="video/mp4">
-                        Your browser does not support HTML5 video
-                     </video>
-                    </a>
-                </div>
-            </article>
-                    
+          
             <!-----------CONTATTI----------->
             <footer id="contatti">
                     <ul class="loghi">
@@ -97,10 +86,24 @@
                         <li><h2>INSTAGRAM</h2><a href><img class="instagram-logo" src="./img/instagram.svg" target="_blank".></a></li>
                     </ul>
                     <ul class="altri">
-                        <li>Web Developer: <strong>Daniele Felicetta</strong></li>
-                        <li>E-mail : <strong> felicettadaniele@gmail.com</strong></li>
+                        <h3>Web Developer: <strong>Daniele Felicetta</strong></h3>
                     </ul>
             </footer>
+
+            <form action="dati.php"  method="post">
+
+                <ul>
+                    <li class="uno">
+                        <label for="nome">Nome</label>
+                        <input type="text" name="nome" id="nome" class="testo" required>
+                    </li>
+                    <li class="due">
+                        <label for="email">Email </label>
+                        <input type="email" name="email" id="email" class="testo" required>
+                    </li>
+                </ul>
+
+            </form>
         
     </body>
 

@@ -1,10 +1,12 @@
 @font-face {
     font-family: "Exo";
     src: url("fonts/Exo2-Medium.ttf") format("truetype");
+    font-display: swap;
 }
 @font-face {
     font-family: "Arima";
     src:url("fonts/Arima-SemiBold.ttf") format("truetype");
+    font-display: swap;
 }
 
 html {
@@ -70,23 +72,25 @@ nav{
     color:white;
     background-color: rgba(11, 11, 11, 0.699);
 }
+nav ul{
+    margin-right: 10vw;
+    margin-left:5vw;
+    display:flex;
+    margin:0;
+    justify-content: space-around;
+}
+ul{
+    list-style-type: none;
+}
 nav li{
+
     margin-top: 1vw;
     font-family: "Arima";
     padding: 1vw 3vw ;
     border-radius: 0.7vw;
     font-weight:bolder;
-    font-size: 1vw;
-    margin-left:6.5vw;
-    margin-right: 5vw;
+    font-size: 1.5vw;
     opacity: 90%;
-
-}
-ul{
-    display:flex;
-    margin:0;
-
-    list-style-type: none;
 }
 a:link,a:visited{
     color:rgb(255, 255, 255);
@@ -94,7 +98,7 @@ a:link,a:visited{
     
 }
 nav li:hover{
-    box-shadow: 0vw 0vw 4vw 2.5vw rgba(38, 101, 197, 0.2);
+    box-shadow: 0vw 0vw 5vw 2.5vw rgba(38, 101, 197, 0.5);
     border-radius: 10vw;
 }
 /*---------------------------1--------------------------*/
@@ -249,19 +253,23 @@ footer{
     border-top:0.3vw solid #2cb0c1;
     background: linear-gradient(270deg,#98cacc, #98d2d6);
     background-size: 100% 100%;
-
     position:absolute;
     right:0vw;
-    top:211vw;
+    top:176vw;
     height: 40vw;
     width: 100vw;
     color:black;
 }
+
 .loghi{
     margin-top: 5vw;
     display: flex;
     justify-content: space-around;
     align-content: center;
+}
+.loghi ul{
+    margin-right: 10vw;
+    margin-left:5vw;
 }
 .loghi li{
     text-align: center;
@@ -269,6 +277,7 @@ footer{
     font-size: 2.3vw;
     font-weight: bold;
     margin-top: 3vw;
+    
 }
 .altri{
 
@@ -286,5 +295,9 @@ footer{
 }
 .instagram-logo{
     width: 6vw;
+}
+
+form{
+    top:211vw;
 }
 

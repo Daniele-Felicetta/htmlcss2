@@ -88,7 +88,7 @@ article{
   padding:3vw ;
 }
 .introduzione:hover{
-  background-image: url("./img/schema-evolutivo.png") ;
+  background-image: url("./img/schema-evolutivo.avif") ;
   opacity: 65%;
   background-size: 100% 100%;
   color: rgba(0,0,0,0); 
@@ -113,7 +113,7 @@ article{
   font-size: 1.9vw;
 }
 .introduzione2:hover{
-  background-image: url("./img/anatomia.png");
+  background-image: url("./img/anatomia.avif");
   opacity: 75%;
   background-size: 100% 100%;
   color: rgba(0,0,0,0); 
@@ -156,7 +156,7 @@ article{
 
 .logo:hover .menu{
   display: block;
-  background-image: url("img/tendina.png");
+  background-image: url("img/tendina.avif");
   background-size:100% 100%;
 }
 
